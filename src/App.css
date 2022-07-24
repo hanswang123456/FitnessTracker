@@ -1,0 +1,80 @@
+Link{
+  text-decoration: none;
+}
+html{
+  background-color: rgb(85,85,85);
+}
+.container{
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 100vh;
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Running_icon_-_Noun_Project_17825.svg/1200px-Running_icon_-_Noun_Project_17825.svg.png");
+  background-size: fit;
+}
+
+.navbar{
+  width: 100%;
+  height: auto;
+  padding:20px 0px;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 0 0 10px 10px;
+}
+
+.navbar-title{
+  font-size: larger;
+  height: 100%;
+  margin: 10px 20px;
+
+}
+
+.nav-item{
+  color:inherit;
+  border-radius: 5px;
+  margin: 5px 10px;
+  padding:5px;
+  background-color: rgb(68, 68, 68);
+  display: inline;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.listings{
+  margin: 0px 20px;
+}
+table{
+  margin: 0px auto;
+}
+h1{
+  color: white;
+}
+th{
+  background-color: rgb(32, 32, 32);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px 10px 0px 0px;
+}
+th>div{
+  display: flex;
+  align-items: center;
+}
+th>div>*{
+  margin:0px 4px;
+}
+td{
+  padding: 10px 20px;
+}
+tr:nth-child(2n){
+  background-color:  rgb(68, 68, 68);
+  color:white
+}
+tr:nth-child(2n+1){
+  background-color: white;
+  color: black;
+}
